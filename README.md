@@ -26,21 +26,23 @@ Install xcode command line utilities if you do not have them already
 
 `brew install php55`
 
-the previous step will tell you HOW to update your CLI path, which is also outlined below!
+The previous step will tell you HOW to update your CLI path, which is also outlined below!
 
-edit your ~/.bashrc file:
+Edit your ~/.bashrc file:
+
 `export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"`
 
-update your paths
+Update your paths
+
 `source ~/.bashrc `
 
-### install rvm and ruby
+### Install rvm and ruby
 `curl -sSL https://get.rvm.io | bash`
 `rvm install ruby-2.1.0`
 `rvm reload`
 `bundle install`
 
-### setup auto-test functionality
+### Setup auto-test functionality
 
 `gem install watchr`
 
@@ -85,4 +87,8 @@ Run behat tests
 Or for the full browser test
 
 `./bin/behat --verbose`
+
+Or for unit tests
+
+`phpunit`
 
