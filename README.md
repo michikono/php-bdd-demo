@@ -1,3 +1,7 @@
+# Introduction
+
+This source sets up PHP 5.4, Composer, and a scaffold for developing with unit and behavioral (browser + headless) tests that run whenever relevant code changes are detected.
+
 # Setup
 
 Clone the demo repository.
